@@ -1,30 +1,30 @@
 class Mdv < Formula
   desc "Fast terminal markdown viewer with Mermaid diagram support"
   homepage "https://github.com/tawago/mdv"
-  version "0.1.3"
+  version "0.1.4"
   license "GPL-3.0-or-later"
 
   on_macos do
     on_arm do
       url "https://github.com/tawago/mdv/releases/download/v#{version}/mdv-darwin-aarch64.tar.gz"
-      sha256 "705e11fc15e50bab2bd3f60dfba3df94f6dd2a814672068fd5641ce3d059ba27"
+      sha256 "2dcf25f23d6edb1ac0a3210869cfa2007f3a76a87051dee476033bdf8493ebd5"
     end
 
     on_intel do
       url "https://github.com/tawago/mdv/releases/download/v#{version}/mdv-darwin-x86_64.tar.gz"
-      sha256 "b680e4fc51725c4ca484c1b19d880fac54cc22287280ee3c10b3d4eb9672caca"
+      sha256 "a25cb04529b42149e6ecf8298ecf4707f4de96af3ff1d09e03b61770fcf4ea92"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/tawago/mdv/releases/download/v#{version}/mdv-linux-aarch64.tar.gz"
-      sha256 "1349201e952565cda56b318579d1dd5b95ff68fcda9728d829a75f6c1de460c8"
+      sha256 "e225880c0cde7658603e06a4eead7cbd2aaadbc25cb9b604098a03f9893083f2"
     end
 
     on_intel do
       url "https://github.com/tawago/mdv/releases/download/v#{version}/mdv-linux-x86_64.tar.gz"
-      sha256 "6ee591dc17a8186006df018d6dee769775583d90e3e7f8d1b374589e59c683a1"
+      sha256 "f66db6f707f3a0b1d0b4a3d76e6c05509f8e11ad5fec53988b8acd7d96401fbb"
     end
   end
 
