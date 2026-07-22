@@ -1,10 +1,9 @@
-# homebrew-mdv
+# homebrew-tap
 
-Homebrew tap for `mdv`.
+Homebrew tap for `mercat` — cat for markdown, with mermaids.
 
 ## Install
 
 ```bash
-brew tap tawago/homebrew-mdv
-brew install mdv
+brew install tawago/tap/mercat
 ```
