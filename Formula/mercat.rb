@@ -1,30 +1,30 @@
 class Mercat < Formula
   desc "Fast terminal markdown viewer with Mermaid diagram support"
   homepage "https://github.com/tawago/mercat"
-  version "0.2.0"
+  version "0.2.1"
   license "GPL-3.0-or-later"
 
   on_macos do
     on_arm do
       url "https://github.com/tawago/mercat/releases/download/v#{version}/mercat-darwin-aarch64.tar.gz"
-      sha256 "dc5be454308fadd5c96900c51dac71450624226fba7b95f7eaf73e9630076a6a"
+      sha256 "e499f3c608fac9db338d90d8b7baf33af95ab10d7dde97e162821f548f677e3c"
     end
 
     on_intel do
       url "https://github.com/tawago/mercat/releases/download/v#{version}/mercat-darwin-x86_64.tar.gz"
-      sha256 "fbbd334c335c3210342d3d22c1441d4b920e8f0ed78d66d6f1b4f8e8d5136652"
+      sha256 "81f2066872db238709e64e81bc96d18fb7eb4ed81e15514a15db2642818d702a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/tawago/mercat/releases/download/v#{version}/mercat-linux-aarch64.tar.gz"
-      sha256 "4648a2c5ea9ee796e7050728a43d3517921ceaaf6cc8e98c4867347dfc4dd628"
+      sha256 "18371a2f2457c80d6a724b87654d0dc682aa6aee9332ce4ff0cd4156df29d9ce"
     end
 
     on_intel do
       url "https://github.com/tawago/mercat/releases/download/v#{version}/mercat-linux-x86_64.tar.gz"
-      sha256 "fcb3aeaeb4d23750746d0cf7f50a032cbb4ed52809c935fdfaf904e06b197948"
+      sha256 "cd5e1b4c7e738ba3b3c358353a1be816442ae96404d54ddc8450edc4256b81b9"
     end
   end
 
